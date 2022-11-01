@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background: #F8F8F8;
 }
 
 .container {
@@ -121,7 +122,9 @@ label.size-radio input:checked + div::before {
   height: 100%;
   width: 100%;
   display: flex;
-  border: 2px solid #2d4872;
+  background: #fff;
+  border-radius: 6px;
+
 }
 .slider__img {
   width: 600px;
