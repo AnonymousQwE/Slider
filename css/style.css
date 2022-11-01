@@ -90,17 +90,14 @@ label.size-radio input:checked + div::before {
 
 /* Slider Small */
 .slidernav .slick-slide.slick-current {
-  width: 80px;
   border: 2px solid #595959;
 }
 
 .slidernav .slick-list {
   width: 85px;
   min-height: 400px;
-  align-items: center;
-}
+ }
 .slidernav .slider-track {
-  width: 90px;
   display: block;
 }
 .slidernav .slick-slide {
@@ -148,10 +145,10 @@ label.size-radio input:checked + div::before {
   line-height: 18px;
   margin: 8px 0 0 45px;
 }
-.slider .slick-arrow{
+.sliders .slick-arrow{
   top: 50%;
-  transform: translate(-50%);
-  z-index: 2;
+  transform: translate(-50% -50%);
+  z-index: 20;
   position: absolute;
   width: 16px;
   height: 30px;
@@ -159,12 +156,12 @@ label.size-radio input:checked + div::before {
   font-size: 0;
   background: url(../image/icons/arrow.svg);
 }
-.slider .slick-prev{
-  left: -150px;
+.sliders .slick-prev{
+  left: 10px;
   rotate: 180deg;
 }
-.slider .slick-next{
-  right: -40px;
+.sliders .slick-next{
+  right: 10px;
 }
 
 .submit-btn {
