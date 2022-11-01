@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".slider").slick({
     slidesToShow: 1,
     asNavFor: ".slidernav",
-    // fade:true,
+    appendArrows: $(".sliders"),
   });
   $(".slidernav").slick({
     arrows: false,
@@ -12,6 +12,7 @@ $(document).ready(function () {
     centerMode: true,
     centerPadding: "160%",
     focusOnSelect: true,
-    touchMove:true,
+    touchMove: true,
+    rows: 1,
   });
 });

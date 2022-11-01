@@ -103,6 +103,7 @@ label.size-radio input:checked + div::before {
 .slidernav .slick-slide {
   width: 75px;
   height: 58px;
+  cursor: pointer;
 }
 .slidernav .slick-slide img {
   width: 100%;
